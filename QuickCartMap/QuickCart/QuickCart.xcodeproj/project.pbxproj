@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA02D45FA33E80ADCFC2FEBB /* Pods_QuickCartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E7D9EF75DA2A9AB23289C5 /* Pods_QuickCartTests.framework */; };
+		DBB42762207948D000BF43C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB42761207948D000BF43C2 /* AppDelegate.swift */; };
+		DBB42764207948D000BF43C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB42763207948D000BF43C2 /* ViewController.swift */; };
+		DBB42767207948D000BF43C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB42765207948D000BF43C2 /* Main.storyboard */; };
+		DBB42769207948D000BF43C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB42768207948D000BF43C2 /* Assets.xcassets */; };
+		DBB4276C207948D000BF43C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB4276A207948D000BF43C2 /* LaunchScreen.storyboard */; };
+		DBB42777207948D000BF43C2 /* QuickCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB42776207948D000BF43C2 /* QuickCartTests.swift */; };
+		DBB42782207948D000BF43C2 /* QuickCartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB42781207948D000BF43C2 /* QuickCartUITests.swift */; };
+		F26361F3237BAB114291B7E8 /* Pods_QuickCartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161BD5ABEAB16E773675A2B7 /* Pods_QuickCartUITests.framework */; };
+		F7998AB3F60BB791F12BE801 /* Pods_QuickCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203AA5F7F10AB43655016DE1 /* Pods_QuickCart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB42773207948D000BF43C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB42756207948CF00BF43C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB4275D207948CF00BF43C2;
+			remoteInfo = QuickCart;
+		};
+		DBB4277E207948D000BF43C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB42756207948CF00BF43C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB4275D207948CF00BF43C2;
+			remoteInfo = QuickCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		161BD5ABEAB16E773675A2B7 /* Pods_QuickCartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickCartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1697717C7B8A5CF88C94C0B6 /* Pods-QuickCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCart.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCart/Pods-QuickCart.release.xcconfig"; sourceTree = "<group>"; };
+		203AA5F7F10AB43655016DE1 /* Pods_QuickCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5859DE9FE9A328E3E70380 /* Pods-QuickCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCartTests/Pods-QuickCartTests.release.xcconfig"; sourceTree = "<group>"; };
+		30AFCC85457DAF928F1E5CB4 /* Pods-QuickCartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCartUITests/Pods-QuickCartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		551D6E4DAD84AAAFA8A32C0E /* Pods-QuickCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCart/Pods-QuickCart.debug.xcconfig"; sourceTree = "<group>"; };
+		68E7D9EF75DA2A9AB23289C5 /* Pods_QuickCartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickCartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F70347A367A53DF5150C6C /* Pods-QuickCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCartTests/Pods-QuickCartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA357A64A30A2E72296456A /* Pods-QuickCartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCartUITests/Pods-QuickCartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBB4275E207948CF00BF43C2 /* QuickCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB42761207948D000BF43C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB42763207948D000BF43C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB42766207948D000BF43C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB42768207948D000BF43C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB4276B207948D000BF43C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB4276D207948D000BF43C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB42772207948D000BF43C2 /* QuickCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB42776207948D000BF43C2 /* QuickCartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCartTests.swift; sourceTree = "<group>"; };
+		DBB42778207948D000BF43C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB4277D207948D000BF43C2 /* QuickCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB42781207948D000BF43C2 /* QuickCartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCartUITests.swift; sourceTree = "<group>"; };
+		DBB42783207948D000BF43C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB4275B207948CF00BF43C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7998AB3F60BB791F12BE801 /* Pods_QuickCart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB4276F207948D000BF43C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA02D45FA33E80ADCFC2FEBB /* Pods_QuickCartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB4277A207948D000BF43C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26361F3237BAB114291B7E8 /* Pods_QuickCartUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC317644B4979D941247552 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551D6E4DAD84AAAFA8A32C0E /* Pods-QuickCart.debug.xcconfig */,
+				1697717C7B8A5CF88C94C0B6 /* Pods-QuickCart.release.xcconfig */,
+				85F70347A367A53DF5150C6C /* Pods-QuickCartTests.debug.xcconfig */,
+				2B5859DE9FE9A328E3E70380 /* Pods-QuickCartTests.release.xcconfig */,
+				30AFCC85457DAF928F1E5CB4 /* Pods-QuickCartUITests.debug.xcconfig */,
+				8EA357A64A30A2E72296456A /* Pods-QuickCartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A241EE025AD71D64F7B0B958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				203AA5F7F10AB43655016DE1 /* Pods_QuickCart.framework */,
+				68E7D9EF75DA2A9AB23289C5 /* Pods_QuickCartTests.framework */,
+				161BD5ABEAB16E773675A2B7 /* Pods_QuickCartUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB42755207948CF00BF43C2 = {
+			isa = PBXGroup;
+			children = (
+				DBB42760207948CF00BF43C2 /* QuickCart */,
+				DBB42775207948D000BF43C2 /* QuickCartTests */,
+				DBB42780207948D000BF43C2 /* QuickCartUITests */,
+				DBB4275F207948CF00BF43C2 /* Products */,
+				3BC317644B4979D941247552 /* Pods */,
+				A241EE025AD71D64F7B0B958 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB4275F207948CF00BF43C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4275E207948CF00BF43C2 /* QuickCart.app */,
+				DBB42772207948D000BF43C2 /* QuickCartTests.xctest */,
+				DBB4277D207948D000BF43C2 /* QuickCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB42760207948CF00BF43C2 /* QuickCart */ = {
+			isa = PBXGroup;
+			children = (
+				DBB42761207948D000BF43C2 /* AppDelegate.swift */,
+				DBB42763207948D000BF43C2 /* ViewController.swift */,
+				DBB42765207948D000BF43C2 /* Main.storyboard */,
+				DBB42768207948D000BF43C2 /* Assets.xcassets */,
+				DBB4276A207948D000BF43C2 /* LaunchScreen.storyboard */,
+				DBB4276D207948D000BF43C2 /* Info.plist */,
+			);
+			path = QuickCart;
+			sourceTree = "<group>";
+		};
+		DBB42775207948D000BF43C2 /* QuickCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB42776207948D000BF43C2 /* QuickCartTests.swift */,
+				DBB42778207948D000BF43C2 /* Info.plist */,
+			);
+			path = QuickCartTests;
+			sourceTree = "<group>";
+		};
+		DBB42780207948D000BF43C2 /* QuickCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB42781207948D000BF43C2 /* QuickCartUITests.swift */,
+				DBB42783207948D000BF43C2 /* Info.plist */,
+			);
+			path = QuickCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB4275D207948CF00BF43C2 /* QuickCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB42786207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCart" */;
+			buildPhases = (
+				2CDE783A84DF8B07F8F5D389 /* [CP] Check Pods Manifest.lock */,
+				DBB4275A207948CF00BF43C2 /* Sources */,
+				DBB4275B207948CF00BF43C2 /* Frameworks */,
+				DBB4275C207948CF00BF43C2 /* Resources */,
+				70686C833D7CBBAE0A0AFD68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickCart;
+			productName = QuickCart;
+			productReference = DBB4275E207948CF00BF43C2 /* QuickCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB42771207948D000BF43C2 /* QuickCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB42789207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCartTests" */;
+			buildPhases = (
+				41024BA5E35DFBAC74607A2D /* [CP] Check Pods Manifest.lock */,
+				DBB4276E207948D000BF43C2 /* Sources */,
+				DBB4276F207948D000BF43C2 /* Frameworks */,
+				DBB42770207948D000BF43C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB42774207948D000BF43C2 /* PBXTargetDependency */,
+			);
+			name = QuickCartTests;
+			productName = QuickCartTests;
+			productReference = DBB42772207948D000BF43C2 /* QuickCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB4277C207948D000BF43C2 /* QuickCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB4278C207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCartUITests" */;
+			buildPhases = (
+				D6F1ECA707EDE52ADF4347C8 /* [CP] Check Pods Manifest.lock */,
+				DBB42779207948D000BF43C2 /* Sources */,
+				DBB4277A207948D000BF43C2 /* Frameworks */,
+				DBB4277B207948D000BF43C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB4277F207948D000BF43C2 /* PBXTargetDependency */,
+			);
+			name = QuickCartUITests;
+			productName = QuickCartUITests;
+			productReference = DBB4277D207948D000BF43C2 /* QuickCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB42756207948CF00BF43C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Christine Udavchak";
+				TargetAttributes = {
+					DBB4275D207948CF00BF43C2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DBB42771207948D000BF43C2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DBB4275D207948CF00BF43C2;
+					};
+					DBB4277C207948D000BF43C2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DBB4275D207948CF00BF43C2;
+					};
+				};
+			};
+			buildConfigurationList = DBB42759207948CF00BF43C2 /* Build configuration list for PBXProject "QuickCart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB42755207948CF00BF43C2;
+			productRefGroup = DBB4275F207948CF00BF43C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB4275D207948CF00BF43C2 /* QuickCart */,
+				DBB42771207948D000BF43C2 /* QuickCartTests */,
+				DBB4277C207948D000BF43C2 /* QuickCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB4275C207948CF00BF43C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB4276C207948D000BF43C2 /* LaunchScreen.storyboard in Resources */,
+				DBB42769207948D000BF43C2 /* Assets.xcassets in Resources */,
+				DBB42767207948D000BF43C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB42770207948D000BF43C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB4277B207948D000BF43C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CDE783A84DF8B07F8F5D389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickCart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41024BA5E35DFBAC74607A2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickCartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70686C833D7CBBAE0A0AFD68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuickCart/Pods-QuickCart-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickCart/Pods-QuickCart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F1ECA707EDE52ADF4347C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickCartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB4275A207948CF00BF43C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB42764207948D000BF43C2 /* ViewController.swift in Sources */,
+				DBB42762207948D000BF43C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB4276E207948D000BF43C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB42777207948D000BF43C2 /* QuickCartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB42779207948D000BF43C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB42782207948D000BF43C2 /* QuickCartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB42774207948D000BF43C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB4275D207948CF00BF43C2 /* QuickCart */;
+			targetProxy = DBB42773207948D000BF43C2 /* PBXContainerItemProxy */;
+		};
+		DBB4277F207948D000BF43C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB4275D207948CF00BF43C2 /* QuickCart */;
+			targetProxy = DBB4277E207948D000BF43C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB42765207948D000BF43C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB42766207948D000BF43C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB4276A207948D000BF43C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB4276B207948D000BF43C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB42784207948D000BF43C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB42785207948D000BF43C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB42787207948D000BF43C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551D6E4DAD84AAAFA8A32C0E /* Pods-QuickCart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB42788207948D000BF43C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1697717C7B8A5CF88C94C0B6 /* Pods-QuickCart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBB4278A207948D000BF43C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F70347A367A53DF5150C6C /* Pods-QuickCartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCart.app/QuickCart";
+			};
+			name = Debug;
+		};
+		DBB4278B207948D000BF43C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5859DE9FE9A328E3E70380 /* Pods-QuickCartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickCart.app/QuickCart";
+			};
+			name = Release;
+		};
+		DBB4278D207948D000BF43C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AFCC85457DAF928F1E5CB4 /* Pods-QuickCartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickCart;
+			};
+			name = Debug;
+		};
+		DBB4278E207948D000BF43C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA357A64A30A2E72296456A /* Pods-QuickCartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuickCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Podfile.QuickCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB42759207948CF00BF43C2 /* Build configuration list for PBXProject "QuickCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB42784207948D000BF43C2 /* Debug */,
+				DBB42785207948D000BF43C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB42786207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB42787207948D000BF43C2 /* Debug */,
+				DBB42788207948D000BF43C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB42789207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB4278A207948D000BF43C2 /* Debug */,
+				DBB4278B207948D000BF43C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB4278C207948D000BF43C2 /* Build configuration list for PBXNativeTarget "QuickCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB4278D207948D000BF43C2 /* Debug */,
+				DBB4278E207948D000BF43C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB42756207948CF00BF43C2 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_QuickCart {
+  umbrella header "Pods-QuickCart-umbrella.h"
+
+  export *
+  module * { export * }
+}
