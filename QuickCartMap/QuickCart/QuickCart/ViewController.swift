@@ -18,5 +18,6 @@ class ViewController: UIViewController {
         marker.title = "Sydney"
         marker.snippet = "Australia"
         marker.map = mapView
+        //thi sis ca faksdjf;lkasdfhjadkls;j
     }
 }
